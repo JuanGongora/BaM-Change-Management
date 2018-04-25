@@ -110,7 +110,7 @@ function input_more_form($form, &$form_submit) {
         '#title' => 'Computer stats',
         '#type' => 'fieldset',
         '#collapsible' => TRUE,
-        '#collapsed' => FALSE,
+        '#collapsed' => TRUE,
     );
     $form['computer_stats']['thickness'] = array(
         '#title' => t('Thickness'),
