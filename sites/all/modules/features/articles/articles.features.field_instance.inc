@@ -48,7 +48,7 @@ function articles_field_default_field_instances() {
     'bundle' => 'article',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Quick reminder, write clearly and consicely!',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -70,16 +70,17 @@ function articles_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'display_summary' => 1,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'rows' => 20,
+        'rows' => 10,
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
@@ -186,6 +187,7 @@ function articles_field_default_field_instances() {
   t('Comment');
   t('Enter a comma-separated list of words to describe your content.');
   t('Image');
+  t('Quick reminder, write clearly and consicely!');
   t('Tags');
   t('Upload an image to go with this article.');
 
