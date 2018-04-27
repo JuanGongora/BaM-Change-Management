@@ -17,7 +17,6 @@ features[field_instance][] = comment-comment_node_article-comment_body
 features[field_instance][] = node-article-body
 features[field_instance][] = node-article-field_image
 features[field_instance][] = node-article-field_tags
-features[menu_links][] = navigation_article:node/add/article
 features[node][] = article
 features[taxonomy][] = tags
 features[user_permission][] = create article content
