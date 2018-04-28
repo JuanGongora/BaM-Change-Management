@@ -48,7 +48,7 @@ function articles_field_default_field_instances() {
     'bundle' => 'article',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'This is changed by Gary',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -69,7 +69,7 @@ function articles_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
+    'label' => 'Main',
     'required' => 0,
     'settings' => array(
       'display_summary' => 1,
@@ -183,11 +183,12 @@ function articles_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Body');
   t('Comment');
   t('Enter a comma-separated list of words to describe your content.');
   t('Image');
+  t('Main');
   t('Tags');
+  t('This is changed by Gary');
   t('Upload an image to go with this article.');
 
   return $field_instances;
