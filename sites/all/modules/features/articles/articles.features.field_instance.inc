@@ -48,7 +48,11 @@ function articles_field_default_field_instances() {
     'bundle' => 'article',
     'default_value' => NULL,
     'deleted' => 0,
+<<<<<<< HEAD
     'description' => 'This is changed by Gary',
+=======
+    'description' => 'Quick reminder, write clearly and consicely!',
+>>>>>>> 92675d20e8a35399fa8029ed27bb8f28d54d8849
     'display' => array(
       'default' => array(
         'label' => 'hidden',
