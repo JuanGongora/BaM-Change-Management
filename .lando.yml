@@ -2,4 +2,7 @@ name: d-7-version-cont
 recipe: drupal7
 config:
   webroot: .
-  xdebug: true
+services:
+  appserver:
+    config:
+      conf: config/xdebug.ini
