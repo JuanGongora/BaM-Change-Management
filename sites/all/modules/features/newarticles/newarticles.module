@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the Articles feature.
+ * Code for the newarticles feature.
  */
 
 include_once 'newarticles.features.inc';

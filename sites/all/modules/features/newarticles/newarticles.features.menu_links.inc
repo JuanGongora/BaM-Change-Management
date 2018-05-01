@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * articles.features.menu_links.inc
+ * newarticles.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function articles_menu_default_menu_links() {
+function newarticles_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: navigation_article:node/add/article.

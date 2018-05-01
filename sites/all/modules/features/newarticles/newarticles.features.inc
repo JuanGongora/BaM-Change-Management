@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * articles.features.inc
+ * newarticles.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function articles_node_info() {
+function newarticles_node_info() {
   $items = array(
     'article' => array(
       'name' => t('Article'),

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * articles.features.user_permission.inc
+ * newarticles.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function articles_user_default_permissions() {
+function newarticles_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create article content'.
