@@ -5,7 +5,7 @@ This is a live document to list configuration and content changes that should be
 Next Release
 -------------------
 - Install the"Example blog feature" feature module.
-- Run Selenium test "create-about-us-page.html"
+- Run Selenium test "create-about-us-page"
 
 1.4 (example)
 -------------------
