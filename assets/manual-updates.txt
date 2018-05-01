@@ -6,6 +6,12 @@ Next Release
 -------------------
 - Install the"Example blog feature" feature module.
 - Run Selenium test "create-about-us-page"
+- Add following code to the top of settings.php file to include string replacement tool:
+
+$global_settings = dirname(__FILE__) . '/global.settings.php';
+if (file_exists($global_settings)) {
+    include $global_settings;
+}
 
 1.4 (example)
 -------------------
