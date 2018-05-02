@@ -1,7 +1,7 @@
-name = Advanced help
-description = Provide extended help and documentation.
+name = Advanced help example
+description = A example help module to demonstrate the advanced help module.
 core = 7.x
-
+dependencies[] = advanced_help
 
 ; Information added by Drupal.org packaging script on 2018-04-14
 version = "7.x-1.4"
